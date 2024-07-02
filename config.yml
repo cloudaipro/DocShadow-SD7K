@@ -15,13 +15,13 @@ OPTIM:
 TRAINING:
   VAL_AFTER_EVERY: 1
   RESUME: False
-  PS_W: 512
-  PS_H: 512
-  TRAIN_DIR: '../data/Jung/train/' # path to training data
-  VAL_DIR: '../data/Jung/test/'    # path to validation data
+  PS_W: 2067
+  PS_H: 3253
+  TRAIN_DIR: './test_data/' # path to training data
+  VAL_DIR: './test_data/'    # path to validation data
   SAVE_DIR: './checkpoints/'     # path to save models and images
   ORI: True
 
 TESTING:
-  WEIGHT: './checkpoints/best.pth'
+  WEIGHT: './checkpoints/SD7K.pth'
   SAVE_IMAGES: True
